@@ -44,7 +44,6 @@ You need **Python 3** installed. No extra libraries are required.
 ### Data Storage
 The game uses a **List of Dictionaries**. This structure is highly scalable—you can add 100 more questions just by adding new dictionaries to the list without changing a single line of the actual game logic.
 
-[attachment_0](attachment)
 
 ### The Loop Engine
 The `for` loop iterates through the list. We use `enumerate()` to keep track of the question number automatically.
